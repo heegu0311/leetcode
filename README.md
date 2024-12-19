@@ -37,4 +37,12 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/heegu0311/leetcode/tree/master/0002-add-two-numbers) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/heegu0311/leetcode/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/heegu0311/leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
