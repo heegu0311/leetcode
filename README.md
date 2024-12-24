@@ -58,6 +58,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/heegu0311/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/heegu0311/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0020-valid-parentheses](https://github.com/heegu0311/leetcode/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -82,6 +83,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/heegu0311/leetcode/tree/master/0020-valid-parentheses) |
 | [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
