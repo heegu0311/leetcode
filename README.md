@@ -46,6 +46,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/heegu0311/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0128-longest-consecutive-sequence](https://github.com/heegu0311/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/heegu0311/leetcode/tree/master/0200-number-of-islands) |
+| [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
 ## Hash Table
 |  |
 | ------- |
@@ -77,4 +78,12 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/heegu0311/leetcode/tree/master/0200-number-of-islands) |
+## Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
