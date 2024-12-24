@@ -11,40 +11,22 @@ class Solution:
             (x, y) = start_v
             visited[x][y] = True
             q = deque([start_v])
-
+            dx = [-1, 1, 0, 0]
+            dy = [0, 0, -1, 1]
 
             # v 는 vertex의 약자
             # 상하좌우 Vertex 순회 로직
             while q:
-                cur_v = q.popleft()
+                cur_x, cur_y = q.popleft()
 
-                right_v = (cur_v[0], cur_v[1] + 1)
-                (right_x, right_y) = right_v
-
-                if right_y < len(graph[0]) and graph[right_x][right_y] != "0" and not visited[right_x][right_y]:
-                    visited[right_x][right_y] = True
-                    q.append(right_v)
-
-                left_v = (cur_v[0], cur_v[1] - 1)
-                (left_x, left_y) = left_v
-
-                if left_y > -1 and graph[left_x][left_y] != "0" and not visited[left_x][left_y]:
-                    visited[left_x][left_y] = True
-                    q.append(left_v)
-
-                up_v = (cur_v[0] - 1, cur_v[1])
-                (up_x, up_y) = up_v
-
-                if up_x > -1 and graph[up_x][up_y] != "0" and not visited[up_x][up_y]:
-                    visited[up_x][up_y] = True
-                    q.append(up_v)
-
-                bottom_v = (cur_v[0] + 1, cur_v[1])
-                (bottom_x, bottom_y) = bottom_v
-
-                if bottom_x < len(graph) and graph[bottom_x][bottom_y] != "0" and not visited[bottom_x][bottom_y]:
-                    visited[bottom_x][bottom_y] = True
-                    q.append(bottom_v)
+                for i in range(4):                    
+                    next_v = (cur_x + dx[i], cur_y + dy[i])
+                    next_x, next_y = next_v
+                    
+                    if next_x >= 0 and next_x < m and next_y >= 0 and next_y < n:
+                        if graph[next_x][next_y] == "1" and not visited[next_x][next_y]:
+                            visited[next_x][next_y] = True
+                            q.append(next_v)
 
         # 반복문으로 이중 배열을 순회한다.
         # 방문하지 않았던 섬에 해당하는 "1"을 만나면 bfs 순회를 시작한다.
