@@ -1,3 +1,6 @@
+from collections import deque
+
+# BFS
 class Solution:
     def canVisitAllRooms(self, rooms: list[list[int]]) -> bool:
         q = deque()
@@ -16,3 +19,21 @@ class Solution:
         
         return all(visited)
  
+# s1 = Solution()
+# print(s1.canVisitAllRooms([[1,3],[3,0,1],[2],[0]]))
+
+
+# DFS
+class Solution2:
+    def canVisitAllRooms(self, rooms: list[list[int]]) -> bool:
+        visited = len(rooms) * [False]
+
+        def dfs(key: int):
+            visited[key] = True
+            for next_key in rooms[key]:
+                if not visited[next_key]:
+                    dfs(next_key)
+
+        dfs(0)
+        
+        return all(visited)
