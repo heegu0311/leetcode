@@ -34,6 +34,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/heegu0311/leetcode/tree/master/0002-add-two-numbers) |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
 ## Math
 |  |
 | ------- |
@@ -51,6 +52,7 @@
 | [0200-number-of-islands](https://github.com/heegu0311/leetcode/tree/master/0200-number-of-islands) |
 | [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/heegu0311/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
 ## Hash Table
 |  |
 | ------- |
@@ -90,6 +92,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/heegu0311/leetcode/tree/master/0020-valid-parentheses) |
 | [0739-daily-temperatures](https://github.com/heegu0311/leetcode/tree/master/0739-daily-temperatures) |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -106,4 +109,16 @@
 |  |
 | ------- |
 | [0871-keys-and-rooms](https://github.com/heegu0311/leetcode/tree/master/0871-keys-and-rooms) |
+## Design
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/heegu0311/leetcode/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
