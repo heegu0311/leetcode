@@ -8,14 +8,10 @@ function maxProfit(prices) {
     let maxProfit = 0;
     
     // 루프 안에서는?
-    for (let i = 0; i < prices.length; i++) {
-        const price = prices[i];
-        const profit = price - minPrice;
-        // 1. minPrice 업데이트: ?
-        if(price < minPrice) minPrice = prices[i];
-        // 2. maxProfit 업데이트: ?
-        if(profit > maxProfit) maxProfit = profit;
+    for (const price of prices) {
+        minPrice = Math.min(minPrice, price);
+        maxProfit = Math.max(maxProfit, price - minPrice);
     }
-    
+
     return maxProfit;
 }
